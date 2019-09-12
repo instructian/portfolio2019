@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by ianpollock (http://jsbin.com/wacaqag/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style media="screen">
+    .dateline{color:red;}
+  </style>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+
+if (hourNow > 18) {
+    greeting = 'Good evening!';
+} else if (hourNow > 12) {
+//     greeting = 'Good afternoon!';
+  greeting = "today is"+" " + today;
+} else if (hourNow > 0) {
+    greeting = 'Good morning!';
+} else {
+    greeting = 'Welcome!';
+}
+
+
+
+// document.write(200 - 23 + greeting);
+</script>
+
+<p>sdfsdfljsksdflkj
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdfsdf
+sdfsdfljsksdflkjsdfsdf</p>
+<p>sdfsdfljsksdflkj
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdfsdf
+sdfsdfljsksdflkjsdfsdf</p>
+
+<h2 class="dateline"> 
+
+  <script type="text/javascript">
+    document.write(greeting);
+  </script>
+
+</h2>
+
+<!-- <script type="text/javascript">
+  document.write('<h3 class="cell small-12 medium-4 dateline">' + greeting + '</h3>');
+</script> -->
+
+
+<p>sdfsdfljsksdflkj
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdfsdf
+sdfsdfljsksdflkjsdfsdf</p>
+<p>sdfsdfljsksdflkj
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdf
+sdfsdfljsksdflkjsdfsdf
+sdfsdfljsksdflkjsdfsdf</p>
+</body>
+</html>
